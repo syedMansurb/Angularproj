@@ -1,0 +1,19 @@
+<h2>DashBoard (Component name:HomepageComponent)</h2>
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Hero</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let anime of string.anime()">
+
+      <tr>    
+        <td>{{anime.name}}</td>
+        <td>{{anime.hero}}</td>
+      </tr>
+
+    </tbody>
+  </table>

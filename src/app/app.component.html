@@ -1,12 +1,11 @@
-<h1>Sign in</h1>
-<br>
-<h2>This is interpolated**{{title}}**text.</h2>
-<br>
-<button (Click)="btnClick()" [disabled]='isDisable' >Click me</button>
-<br>
-<br>
-<button (click)="loginClicked()">login</button>
-<br>
-<button (click)="LogoutClickled()">Logout</button>
-<br>
-<router-outlet></router-outlet>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+  <a href="login"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+<h1>Welcome!</h1>
+<h2>Click Login to enter!</h2>
+<p style="position: fixed; bottom: 0; width:100%; text-align: center;border-color: rgb(247, 2, 43);">© Copyright, HCL</p>
+<router-outlet></router-outlet> 

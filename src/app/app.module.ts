@@ -8,7 +8,7 @@ import { LogoutComponent } from './logout/logout.component';
 
 //
 import { FormsModule } from '@angular/forms';
-import { HomepageComponent } from './homepage/homepage.component';
+import { HomepageComponent } from './Dashboard/dashboard.component';
 
  
 @NgModule({
